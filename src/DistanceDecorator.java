@@ -1,4 +1,4 @@
-public class DistanceDecorator extends POIDecorator {
+class DistanceDecorator extends POIDecorator {
     private Location cur;
 
     public DistanceDecorator(IPOI poi, Location cur) {

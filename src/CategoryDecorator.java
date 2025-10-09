@@ -1,4 +1,4 @@
-public class CategoryDecorator extends POIDecorator {
+class CategoryDecorator extends POIDecorator {
     private String category;
 
     public CategoryDecorator(IPOI poi, String category) {

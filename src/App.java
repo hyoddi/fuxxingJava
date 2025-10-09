@@ -36,10 +36,15 @@ public class App {
             }
         }
 
-        System.out.println("\n\n== After unWrap ==");
+        // yourcode : 대문자 데코레이터
+        System.out.println("\n\n== UpperCaseDecorator ==");
+        System.out.println(new UpperCaseDecorator(decoratedBase.get(0)).getInformation());
+        // 참고로 후에 추가한 데코레이터는 for문 안에서만 한거라서 읽어올 때 적용한 두 개만 보인다. 
 
+        System.out.println("\n\n== After unWrap ==");
+        
         for (IPOI poi : decoratedBase){
-            System.out.println(POIDecorator.unWrap(poi));
+            System.out.println(POIDecorator.unWrap(poi)); // 사실 얘도 두 개만 벗기는 셈이다.
         }
     }
 }

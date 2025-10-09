@@ -1,4 +1,4 @@
-public class HashtagyDecorator extends POIDecorator {
+class HashtagyDecorator extends POIDecorator {
     private String hashtag;
 
     public HashtagyDecorator(IPOI poi, String hashtag) {

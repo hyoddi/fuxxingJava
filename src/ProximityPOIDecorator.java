@@ -1,4 +1,4 @@
-public class ProximityPOIDecorator extends POIDecorator {
+class ProximityPOIDecorator extends POIDecorator {
     private Location cur;
     private double radiusMeter;
 
